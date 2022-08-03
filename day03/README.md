@@ -10,7 +10,7 @@
 PASS
 ok      github.com/n-ulricksen/aoc-2015/day03   0.005s
 
-real    0m0.138s
-user    0m0.173s
-sys     0m0.051s
+real    0m0.729s
+user    0m1.246s
+sys     0m0.286s
 ```

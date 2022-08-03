@@ -8,9 +8,9 @@
 1797
 --- PASS: TestPart2 (0.00s)
 PASS
-ok      github.com/n-ulricksen/aoc-2015/day01   0.003s
+ok      github.com/n-ulricksen/aoc-2015/day01   0.001s
 
-real    0m0.145s
-user    0m0.165s
-sys     0m0.062s
+real    0m0.641s
+user    0m1.201s
+sys     0m0.217s
 ```
