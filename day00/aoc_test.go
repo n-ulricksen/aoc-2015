@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"log"
 	"os"
+	"strings"
 	"testing"
 )
 
@@ -22,7 +23,7 @@ func init() {
 	if err != nil {
 		log.Fatal(err)
 	}
-	input = string(data)
+	input = strings.TrimSpace(string(data))
 }
 
 func TestPart1(t *testing.T) {
