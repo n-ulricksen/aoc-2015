@@ -1,0 +1,15 @@
+#!/bin/bash
+
+DAY=$1
+if [ -z "$DAY" ]; then
+    echo "usage: ./test <aoc day #>"
+    exit 1
+fi
+
+DAY_DIR=`printf "day%02d" $DAY`
+if ! test -d $DAY_DIR; then
+    echo "package '$DAY_DIR' not found"
+    exit 1
+fi
+
+go clean -testcache && go clean -cache && time go test -v ./$DAY_DIR
